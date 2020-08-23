@@ -1,13 +1,18 @@
 .App {
-  font-family: sans-serif;
+  font-family: 'Get Schwifty';
+  font-weight: normal;
+  font-style: normal;
 }
 
 .home-title {
   display: flex;
   align-content: center;
   justify-content: center;
-  color: white;
+  color: #00B4CB;
   padding: 5px;
+  background-image: url(https://images-na.ssl-images-amazon.com/images/I/71k5sg2ZhuL._AC_SL1500_.jpg);
+  border-radius: 100%;
+  text-shadow: 2px 2px black;
 }
 
 .home-list {
@@ -26,6 +31,12 @@
   opacity: 80%;
   transition: ease;
   transition-duration: 2s;
+}
+
+.img-description {
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
 }
 
 .Description {
@@ -51,4 +62,45 @@
 svg {
   width: 100% !important;
   height: 80% !important;
+}
+
+.content-description{
+  display: grid;
+  justify-content: center;
+}
+
+.character-description{
+  padding-top: 15px;
+  color: #00B4CB;
+  display: grid;
+  justify-content: center;
+  background-color: black;
+  border-radius: 90px 90px 0px 0px;
+}
+
+.line-description{
+  display: flex;
+}
+
+.icon-description{
+  margin-left: 5%;
+  width: 20%;
+  height: 20%;
+}
+
+.m-t-5{
+  margin-top: 5%;
+}
+
+.go-back {
+  border-radius: 100%;
+  width: 10%;
+}
+
+.p-desc-det {
+  font-size: 2rem;
+  text-align: center;
+  text-indent: 20px;
+  margin: 3vw;
+  width: 100%;
 }
